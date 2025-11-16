@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+        <title>personal portfolio website</title>
+        <link rel="stylesheet" href="projectstyle.css">
+        <script src="https://kit.fontawesome.com/feb68e3a54.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="portphoto/logo.jpg" alt="logonotfound" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">home</a></li>
+                        <li><a href="#about">about</a></li>
+                        <li><a href="#services">service</a></li>
+                        <li><a href="#portfolio">portfolio</a></li>
+                        <li><a href="#contact">contact</a></li>
+                        <i class="fa-solid fa-circle-xmark" onclick="Closemenu()"></i>
+                    </ul>
+                    <i class="fa-brands fa-elementor" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>UI/UXX Designer</p>
+                    <h1>Hey, I am <span> Darshan</span> <br> from Bangalore  </h1>
+                </div>
+            </div>
+        </div>
+        <!---------about------->
+
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="portphoto/1000071397.jpg" alt="">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About me</h1>
+                        <p>Hi, I'm Darshan P C, a Computer Science and Business Systems student at KSSEM.
+I'm passionate about coding, technology, and creative problem-solving.
+Skilled in Python, C, and teamwork, I enjoy building innovative projects.
+I'm constantly learning new technologies to improve my skills.
+My goal is to grow as a developer and entrepreneur in the tech world.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('educations')">Educations</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Programming Languages</span><br> Python, C, HTML,CSS</li>
+                                <li><span>Web Development</span><br>Responsive web design, UI/UX fundamentals </li>
+                                <li><span>Tools & Platforms</span><br>Canva, Google Colab, VS Code, GitHub</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>E-Commerce Seller</span><br> Managing my own online store selling kurtis and dupattas, 
+                                    handling inventory, orders, and customer communication.</li>
+                                <li><span>UI/UX and Web Design Projects</span><br> Created personal portfolio and small business websites
+                                     using HTML, CSS, and Canva.</li>
+                                <li><span>DSA in Python (NPTEL)</span><br>Completed coursework focusing on data structures, algorithms,
+                                    and logical problem-solving.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="educations">
+                            <ul>
+                                <li><span>2024- Current: Bachelor of Engineering </span><br> Computer Science and Business Systems 
+                                    K. S. School of Engineering and Management (KSSEM), Bengaluru</li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--------------services---------->
+        <div id="services">
+            <div class="container">
+              <h1 class="sub-title">My services</h1>
+              <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-web-awesome"></i>
+                    <h2>Web Design</h2>
+                    <p>Passionate about designing responsive, user-friendly, 
+                        and visually engaging websites using HTML, CSS, and modern UI/UX concepts.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-building-user"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Passionate about designing responsive, user-friendly, 
+                        and visually engaging websites using HTML, CSS, and modern UI/UX concepts.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-grip"></i>
+                    <h2>App Design</h2>
+                    <p>Passionate about designing responsive, user-friendly, 
+                        and visually engaging websites using HTML, CSS, and modern UI/UX concepts.</p>
+                    <a href="#">Learn more</a>
+                </div>
+              </div>  
+            </div>
+        </div>
+        <!-------portfolio-->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="subtitle">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="portphoto/work1.jpg">
+                        <div class="layer">
+                            <h3>Web Developer</h3>
+                            <p>The web connects you to talented people around the world</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="portphoto/work2.jpg">
+                        <div class="layer">
+                            <h3>Developer</h3>
+                            <p>Enthusiastic web developer skilled in HTML, CSS, and Python, 
+                                creating responsive and user-friendly websites.</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="portphoto/work3.jpg">
+                        <div class="layer">
+                            <h3>UI/UX</h3>
+                            <p>Creative Ul/UX designer focused on crafting clean, 
+                                user-friendly, and visually appealing interfaces.</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+
+<!--------contact-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i> darshanp.c1234@gmail.com</p>
+                <p> <i class="fa-solid fa-phone"></i> 6360752997</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Darshan</p>
+    </div>
+</div>
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+            function openmenu(){
+                sidemenu.style.right = "0";
+            }
+             function Closemenu(){
+                sidemenu.style.right = "-200px";
+            }
+        </script>
+        <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbw0Ps6oj2IMxpwLYjkGkBTGQX8gQzrB-w5wp6yHw3e8DzKBmt0hJrqE-raGYTpfLvk4EA/exec'
+  const form = document.forms['submit-to-google-sheet']
+const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully"
+      setTimeout(function(){
+        msg.innerHTML = ""
+      },5000)
+      form.reset()
+    })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+    </body>
+</html>
